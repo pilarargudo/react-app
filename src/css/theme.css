@@ -1,0 +1,247 @@
+/** Custom theme **/
+/* html, body{
+  font-size: 62.5%;
+}
+h1{
+  font-size: 2.2rem; 
+}
+p{
+  font-size: 1.6rem; 
+} */
+
+/* Layout */
+
+.mdl-layout__container{
+  background-color: #fff;
+}
+
+/* Footer */
+.mdl-mega-footer {
+  background-color: #100633;
+      /* color: #9e9e9e; */
+}
+.mdl-mega-footer--heading, .mdl-mega-footer__heading{
+  font-size: 1.4rem;
+}
+.mdl-mega-footer .mdl-textfield__input{
+  border-bottom: 1px solid #9e9e9e;
+}
+.mdl-mega-footer  .mdl-textfield__label{
+  color: inherit;
+}
+.mdl-mega-footer__bottom-section {
+  border-top: 2px solid #080319;
+}
+
+/* Navbar */
+
+.mdl-layout__header-row{
+  height: 100px;
+}
+.mdl-layout__header.is-compact {
+  max-height: 100px;
+}
+.mdl-layout-title a{
+    color: #231f20;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+.mdl-layout__header-row img {
+  width: 190px;
+  position: relative;
+}
+
+.mdl-layout__header-row .mdl-navigation{
+  justify-content: center;
+}
+a.mdl-navigation__link {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.social-links a.mdl-navigation__link {
+  display: inline-block;
+  padding: 0 1rem 0 0;
+  font-size: 1.5em;
+}
+.mdl-navigation__link.user-links {
+    margin-left: 2em;
+    padding: 0;
+}
+
+/* Header */
+
+.banner-section{
+  padding: 4rem 0;
+}
+.slogan {
+  font-size: 5rem;
+  padding-top: 10rem;
+  color: #fff;
+}
+.sub-slogan {
+  font-size: 2rem;
+  padding: 4rem 0;
+  color: #fff;
+}
+
+/* Drawer */
+
+.mdl-layout__drawer img {
+  width: 120px;
+  padding-top: 2.5rem;
+  position: relative;
+}
+
+/* Cards travels  */
+
+.travel-card-event.mdl-card {
+  width: 100%;
+  height: 320px;
+  background: #3E4EB8;
+}
+.travel-card-event .mdl-card__actions {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+.travel-card-event .mdl-card__title {
+  align-items: flex-start;
+  padding: 0;
+}
+.travel-card-event .mdl-card__title .mdl-grid.mdl-grid--no-spacing {
+    margin: 0;
+    width: 100%;
+}
+.travel-card-event .mdl-card__title h3 {
+  margin: 0;
+  background: #f5dc3b;
+  height: 6rem;
+  line-height: 6rem;
+  padding: 1rem 0 1rem 0.5rem;
+  color: #100633;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+}
+.travel-card-event .mdl-card__title h4 {
+  margin: 0;
+  background: #100633;
+  padding: 0;
+  height: 3rem;
+  padding: 1rem;
+  line-height: 3rem;
+  font-size: 1em;
+  font-weight: 500;
+}
+.travel-card-event .mdl-card__actions {
+  display: flex;
+  box-sizing:border-box;
+  align-items: center;
+}
+.travel-card-event .mdl-card__actions .material-icons {
+  padding-right: 10px;
+}
+.travel-card-event  .mdl-card__title,
+.travel-card-event .mdl-card__actions,
+.travel-card-event .mdl-card__actions .mdl-button {
+  color: #fff;
+  font-size: 1.5rem;
+  width: 100%;
+}
+
+/* Who */
+
+section#who .mdl-grid .mdl-cell:nth-child(2){
+  background-color: #fff;
+  color: black;
+  padding: 2em;
+}
+
+/* Contact */
+
+section#contact{
+  padding: 3em 0;
+}
+section#contact .mdl-grid>.mdl-cell:nth-child(2){
+  padding-left: 0.25em;
+}
+#googleMap {
+  height: 400px; 
+  width: 100%; 
+}
+
+/* Auth */ 
+
+.auth .mdl-card{
+  width: 100%;
+  background: rgba(255,255,255, 0.7);
+}
+.mdl-textfield__label {
+  color: rgba(0,0,0,.4);
+}
+.auth .mdl-card__supporting-text {
+  margin: 0 auto;
+}
+
+
+/* Register */ 
+section#profile,
+section#register {
+  padding: 3em 0;
+}
+
+/* Profile */
+
+body.profile .profile-ribbon {
+  width: 100%;
+  height: 60vh;
+  background-color: #3F51B5;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+body.profile .mdl-layout__content {
+  margin-top: -25vh;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  /* background in ribbon */
+  background: none !important;
+  overflow: visible;
+}
+body.profile.auth .mdl-card {
+    background: rgba(255,255,255, 1);
+}
+
+.card-image {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.card-image .big-icon {
+  margin-top: -150px;
+}
+
+.card-image .big-icon img {
+  width: 300px;
+  height: 300px;
+  /* background: url(../img/avatar.jpg) center center;
+  background-size: cover;
+  background-position: center; */
+    border-radius: 50%;
+  border: 2px solid white;
+}
+
+.profile.auth .mdl-card {
+  overflow: visible;
+}
+.profile.auth .mdl-card .card-image form.profile-img{
+    position: absolute;
+    margin-top: 50px;
+    left: 59%;
+}
+
+label.input-custom-file input[type=file] {
+  display: none;
+}
