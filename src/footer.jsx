@@ -31,7 +31,7 @@ function Footer() {
         <form action="#">
           <div className="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
             <input className="mdl-textfield__input" type="text" id="newsletter" />
-            <label className="mdl-textfield__label" for="newsletter">Email...</label>
+            <label className="mdl-textfield__label">Email...</label>
           </div>
           <button className="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
             <i className="material-icons">arrow_forward_ios</i>
