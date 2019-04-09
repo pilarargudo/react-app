@@ -6,6 +6,8 @@ import './App.css';
 import './css/theme.css';
 import './css/ui-md-alerts.css';
 
+import Footer from './footer';
+
 // OPCIÓN A: componente como clase
 // className App extends Component {
 //   render() {
@@ -279,6 +281,7 @@ function App() {
           </div>
           <div className="mdl-layout-spacer"></div>
         </section>
+        <Footer/>
     </div>
     
   );
