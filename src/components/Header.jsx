@@ -2,8 +2,8 @@
 import React from 'react';
 
 // BrowserRouter para navegador, para que hagar redireccionamiento por las url de navegador
-// TODO para usar navlink necesitamos integrar el router
-//import { NavLink } from 'react-router-dom';
+// TODO para usar navlink necesitamos integrar el route
+import { NavLink } from 'react-router-dom';
 
 import logo from '../logo.svg';
 import '../css/theme.css';
@@ -33,10 +33,11 @@ function Header(props) {
           <a className="mdl-navigation__link mdl-typography--text-uppercase" href="#who">Quiénes somos</a>
           <a className="mdl-navigation__link mdl-typography--text-uppercase" href="#contact">Dónde estamos</a>
 
-          {/* <NavLink to="#travels" 
+          {/* TODO hash */}
+          <NavLink to="#travels" 
                  className="mdl-navigation__link mdl-typography--text-uppercase"
-                 activeClassName="active">
-                 Destinos</NavLink> */}
+                 activeClassName="selected">
+                 Destinos</NavLink>
         </nav>
       </div>
       <div className="mdl-cell mdl-cell--3-col">
