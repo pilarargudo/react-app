@@ -8,22 +8,22 @@ function Footer() {
       <div className="mdl-cell mdl-cell--4-col mdl-cell--3-col-tablet">
         <h1 className="mdl-mega-footer__heading mdl-typography--text-uppercase">¿Necesitas ayuda?</h1>
         <ul className="mdl-mega-footer__link-list">
-          <li><a href="#">0264 123 4567</a></li>
-          <li><a href="#">hola@geekshubstravels.com</a></li>
-          <li><a href="#">Lunes a viernes 9:00-19:00</a></li>
-          <li><a href="#">Sábados 10:00-15:00</a></li>
+          <li><a href="/">0264 123 4567</a></li>
+          <li><a href="/">hola@geekshubstravels.com</a></li>
+          <li><a href="/">Lunes a viernes 9:00-19:00</a></li>
+          <li><a href="/">Sábados 10:00-15:00</a></li>
         </ul>
       </div>
       <div className="mdl-cell mdl-cell--4-col mdl-cell--2-col-tablet">
         <h1 className="mdl-mega-footer__heading mdl-typography--text-uppercase">Información</h1>
         <ul className="mdl-mega-footer__link-list">
-          <li><a href="#">Quiénes somos</a></li>
-          <li><a href="#">Preguntas frecuentes</a></li>
-          <li><a href="#">Política de privacidad</a></li>
-          <li><a href="#">Condiciones generales</a></li>
-          <li><a href="#">Aviso legal</a></li>
-          <li><a href="#">Contacto</a></li>
-          <li><a href="#">Programa de puntos</a></li>
+          <li><a href="/">Quiénes somos</a></li>
+          <li><a href="/">Preguntas frecuentes</a></li>
+          <li><a href="/">Política de privacidad</a></li>
+          <li><a href="/">Condiciones generales</a></li>
+          <li><a href="/">Aviso legal</a></li>
+          <li><a href="/">Contacto</a></li>
+          <li><a href="/">Programa de puntos</a></li>
         </ul>
       </div>
       <div className="mdl-cell mdl-cell--4-col mdl-cell--3-col-tablet">
